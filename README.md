@@ -30,8 +30,3 @@ APIs used for:
 - Resume Download  
 - Contact Form Submission  
 - Authentication (Admin Login)
-
----
-
-## 📁 Folder Structure
-
