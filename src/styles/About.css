@@ -26,14 +26,14 @@
   letter-spacing: 1px;
   margin-bottom: 3rem;
   border-bottom: 2px solid #f77f00;
-  display: inline-block;   /* 👈 THIS MAKES BORDER FIT TEXT */
-  padding-bottom: 4px;     /* optional spacing */
+  display: inline-block;  
+  padding-bottom: 4px;     
 }
 
 
 /* Paragraph Text */
 p {
-  color: #cbd5e1; /* subtle light text */
+  color: #cbd5e1; 
   font-size: 1rem;
   line-height: 1.7;
 }
@@ -61,6 +61,6 @@ span > .cursor {
 
 /* Dark card style for other sections */
 .bg-light {
-  background-color: #1e293b !important; /* override Bootstrap light */
+  background-color: #1e293b !important; 
   color: #f8fafc;
 }
