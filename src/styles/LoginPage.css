@@ -1,0 +1,28 @@
+/* Full Page Wrapper */
+.login-wrapper {
+  background: linear-gradient(135deg, #eef2ff, #dbeafe);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Login Card */
+.login-card {
+  width: 400px;
+  border-radius: 14px;
+  background: #ffffff;
+  padding: 30px;
+  border: none;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+/* Active press */
+.btn-primary:active {
+  transform: scale(0.98);
+}
+
+/* Card Title */
+.login-card h3 {
+  color: #4c1d95;
+}

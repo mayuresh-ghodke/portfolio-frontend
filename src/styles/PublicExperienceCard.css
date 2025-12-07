@@ -1,0 +1,106 @@
+/* ===========================
+   Main Card
+=========================== */
+
+.exp-card {
+  background: #1e293b;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 26px 28px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
+  transition: 0.35s ease;
+}
+
+.exp-card:hover {
+  border-color: #51f5f0ff;
+  box-shadow: 0 25px 60px rgba(99, 102, 241, 0.25);
+}
+
+/* Force start alignment */
+.exp-title,
+.exp-subtitle,
+.exp-dates,
+.exp-jobType {
+  text-align: start !important;
+}
+
+/* Icon alignment */
+.exp-icon {
+  margin-right: 8px;
+  vertical-align: middle;
+  transform: translateY(-2px);
+}
+
+/* Divider */
+.exp-divider {
+  margin: 0 10px;
+  color: #a5b4fc;
+  font-weight: 400;
+}
+
+/* Inline container */
+.exp-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ===========================
+   Typography
+=========================== */
+
+.exp-title {
+  font-size: 1.25rem;
+  color: #51f5f0ff;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.exp-subtitle {
+  color: #6366f1;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.exp-dates {
+  color: #e2e8f0;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+.exp-jobType {
+  color: #cbd5e1;
+  font-size: 0.95rem;
+  margin-bottom: 14px;
+}
+
+/* ===========================
+   Description
+=========================== */
+
+.exp-description {
+  margin-top: 12px;
+  padding-left: 20px;
+  color: #d1d5db;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.exp-description li {
+  margin-bottom: 6px;
+  color: white;
+  font-style: italic;
+}
+
+/* Hidden badge */
+.hidden-badge {
+  display: inline-block;
+  margin-top: 14px;
+  background-color: #ff4d4f;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: white;
+}

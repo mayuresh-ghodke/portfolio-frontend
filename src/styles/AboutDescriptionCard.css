@@ -1,0 +1,77 @@
+/* AboutDescriptionCard.css */
+
+/* Card Container */
+.about-card {
+  background-color: #0f172a; /* Midnight Developer dark */
+  border: 1px solid #1e293b; /* Slightly lighter border */
+  color: #f8fafc; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  padding: 10px;
+  border-radius: 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+}
+
+/* Image Section */
+.about-card-img {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.about-card-img img {
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  border: 2px solid #374151;
+  transition: transform 0.3s ease;
+}
+
+.about-card-img img:hover {
+  transform: scale(1.05);
+}
+
+/* Text Section */
+.about-card-text {
+  flex-grow: 1;
+}
+
+.about-card-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f8fafc;
+}
+
+.about-card-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #cbd5e1; /* light text for contrast */
+  margin-top: 0.8rem;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .about-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    padding: 1.5rem;
+  }
+
+  .about-card-text {
+    text-align: left;
+  }
+
+  .about-card-img img {
+    max-width: 100%;
+    height: auto;
+  }
+}

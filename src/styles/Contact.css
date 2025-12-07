@@ -1,0 +1,184 @@
+/* Page Container */
+.container {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Section Title */
+.content-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #f8fafc;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 3rem;
+}
+
+/* Message Description Box */
+.description-box {
+  background-color: #1e293b;
+  border-radius: 1rem;
+  padding: 25px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+
+/* General Paragraphs */
+p, h4, h5 {
+  color: #cbd5e1;
+  margin: 0;
+}
+
+
+
+/* Contact Form Container (Dark theme + shadow like cards) */
+.contact-form {
+  width: 100%;
+  padding: 25px;
+  border-radius: 1rem;
+  background-color: #1e293b; /* Same dark card color */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+  font-family: "Poppins", sans-serif;
+  color: #f8fafc; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+  border-color: #51f5f0ff;
+}
+
+/* Uniform Dark Card (used for contact-card and message description card) */
+.dark-card {
+    background-color: #1e293b; 
+    border: 1px solid #1e293b;
+    color: #f8fafc;
+    padding: 30px;
+    min-height: 160px;   /* Same height */
+    border-radius: 1rem;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.dark-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+}
+
+/* Align ContactForm vertically */
+.justify-content-center {
+  display: flex;
+  align-items: center;
+}
+
+
+/* Label Styling */
+.form-group label {
+  display: block;
+  font-weight: 600;
+  color: #cbd5e1;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+/* Inputs & Textareas */
+.form-control,
+.form-input,
+.contact-textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 0.6rem;
+  border: 1px solid #334155; /* Slight border */
+  background-color: #0f172a; /* darker input bg */
+  color: #f8fafc;
+  box-sizing: border-box;
+  font-size: 1rem;
+  transition: border 0.25s ease, background-color 0.25s ease;
+  margin-top:20px;
+}
+
+/* Hover effect */
+.form-control:hover,
+.form-input:hover,
+.contact-textarea:hover {
+  border-color: #8b5cf6; /* violet highlight */
+}
+
+/* Focus effect */
+.form-control:focus,
+.form-input:focus,
+.contact-textarea:focus {
+  background-color: #1e293b;
+  border-color: #8b5cf6;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.3);
+}
+
+/* Textarea */
+.contact-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Submit Button */
+.btn-submit {
+  margin-top: 15px;
+  display: inline-block;
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #51f5f0ff; /* violet accent */
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: background-color .25s ease, transform .25s ease;
+}
+
+.btn-submit:hover {
+  background-color: #51f5f0ff;
+  transform: translateY(-2px);
+}
+
+.btn-submit:active {
+  transform: scale(0.98);
+}
+
+/* Section heading inside form */
+.contact-form h5 {
+  margin-top: 30px;
+  color: #f8fafc;
+}
+
+.contact-form-btn {
+  margin-top: 15px;
+  display: inline-block;
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #51f5f0ff; /* violet accent */
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: background-color .25s ease, transform .25s ease;
+}
+
+.contact-from-btn:hover {
+  background-color: #51f5f0ff;
+  transform: translateY(-2px);
+}
+
+.contact-form-input:hover{
+  border-color: #51f5f0ff;
+}

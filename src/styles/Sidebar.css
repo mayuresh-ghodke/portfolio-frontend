@@ -1,0 +1,71 @@
+/* ---------------------------
+   SIDEBAR LAYOUT SETTINGS
+--------------------------- */
+
+.sidebar-container {
+  min-height: 100vh;
+}
+
+.sidebar {
+  background: #111827 !important;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Desktop fixed width */
+@media (min-width: 992px) {
+  .sidebar {
+    width: 240px;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .sidebar-container {
+    width: 240px;
+  }
+}
+
+.sidebar-header h4 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* ---------------------------
+   SIDEBAR LINKS
+--------------------------- */
+
+.sidebar-links .nav-link {
+  padding: 12px 22px;
+  color: #cbd5e1;
+  font-size: 15px;
+  font-weight: 500;
+  border-left: 3px solid transparent;
+  transition: 0.2s ease;
+}
+
+.sidebar-links .nav-link:hover {
+  background-color: #1f2937;
+  color: #fff;
+  border-left: 3px solid #3b82f6;
+}
+
+.sidebar-links .nav-link.active {
+  background-color: #1f2937;
+  color: #fff !important;
+  border-left: 3px solid #3b82f6;
+  font-weight: 600;
+}
+
+/* Mobile: Sidebar collapses fully */
+@media (max-width: 991px) {
+  .sidebar {
+    min-height: auto;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+}

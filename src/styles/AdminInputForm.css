@@ -1,0 +1,104 @@
+/* Uniform Dark Card (used for contact-card and message description card) */
+.admin-form-card {
+    background-color: white; 
+    border: 1px solid #1e293b;
+    padding: 30px;
+    min-height: 160px;   /* Same height */
+    border-radius: 1rem;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.admin-dark-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+}
+
+/* Align ContactForm vertically */
+.justify-content-center {
+  display: flex;
+  align-items: center;
+}
+
+
+/* Label Styling */
+.admin-form-group label {
+  display: block;
+  font-weight: 600;
+  color: #cbd5e1;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+  margin-top: 10px;
+}
+
+/* Inputs & Textareas */
+.admin-form-control,
+.admin-form-input,
+.admin-contact-textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 0.6rem;
+  border: 1px solid #828282; /* Slight border */
+  box-sizing: border-box;
+  font-size: 1rem;
+  transition: border 0.25s ease, background-color 0.25s ease;
+  margin-top: 10px;
+}
+
+/* Hover effect */
+.admin-form-control:hover,
+.admin-form-input:hover,
+.admin-contact-textarea:hover {
+  border-color: #828282; /* violet highlight */
+}
+
+/* Focus effect */
+.adminform-control:focus,
+.admin-form-input:focus,
+.admin-contact-textarea:focus {
+  border-color: #828282;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.3);
+}
+
+/* Textarea */
+.contact-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Submit Button */
+.btn-submit {
+  margin-top: 15px;
+  display: inline-block;
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #8b5cf6; /* violet accent */
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: background-color .25s ease, transform .25s ease;
+}
+
+.btn-submit:hover {
+  background-color: #7c3aed;
+  transform: translateY(-2px);
+}
+
+.btn-submit:active {
+  transform: scale(0.98);
+}
+
+/* Section heading inside form */
+.contact-form h5 {
+  margin-top: 30px;
+  color: #f8fafc;
+}
+

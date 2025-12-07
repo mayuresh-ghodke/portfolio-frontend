@@ -1,0 +1,13 @@
+.profile-card {
+    border-radius: 15px;
+    background: #ffffffcc;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.profile-card h4 {
+    color: #333;
+}
+.profile-card p {
+    margin: 8px 0;
+    font-size: 16px;
+}

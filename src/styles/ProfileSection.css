@@ -1,0 +1,52 @@
+.custom-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  margin:80px;
+}
+
+.custom-modal-content {
+  background: #1e293b;
+  padding: 25px;
+  width: 50%;
+  border-radius: 12px;
+  color: #f8fafc;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+}
+
+.custom-modal-content input,
+.custom-modal-content textarea {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #334155;
+  color: white;
+}
+
+.custom-modal-content h5 {
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.profile-section {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  color: #f8fafc;
+  padding: 30px;
+  border-radius: 1rem;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease;
+}
+
+.profile-section:hover {
+  transform: translateY(-5px);
+}

@@ -1,0 +1,74 @@
+.certificates-title {
+  color: #51f5f0ff;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.certificate-card {
+  background-color: #1e293b; /* Midnight Developer dark */
+  border: 1px solid #1e293b; /* Slightly lighter border */
+  color: #f8fafc;
+  gap: 2rem;
+  padding: 30px;
+  border-radius: 1rem;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  text-align: center;
+}
+
+.certificate-card:hover {
+  transform: translateY(-5px);
+  border: 1px solid #51f5f0ff;
+}
+
+.certificate-thumbnail {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.certificate-description {
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.certificate-badge {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.certificate-badge.visible {
+  background: #38b000;
+  color: white;
+}
+
+.certificate-badge.hidden {
+  background: #d00000;
+  color: white;
+}
+
+.certificate-btn {
+  margin-top: 10px;
+  background: #ff6b35;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.certificate-btn:hover {
+  background: #ff7f50;
+}

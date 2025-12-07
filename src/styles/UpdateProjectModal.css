@@ -1,0 +1,75 @@
+/* BACKDROP */
+.modal-backdrop-custom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999 !important;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+/* MODAL BOX */
+.modal-custom {
+  width: 500px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  animation: slideUp 0.25s ease-out;
+  position: relative;
+}
+
+.modal-custom h4 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* INPUTS */
+.modal-custom input,
+.modal-custom textarea,
+.modal-custom select {
+  border-radius: 8px;
+}
+
+.modal-custom textarea {
+  height: 100px;
+  resize: none;
+}
+
+/* BUTTONS */
+.modal-custom .btn {
+  padding: 8px 20px;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+/* ANIMATIONS */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* RESPONSIVE */
+@media (max-width: 576px) {
+  .modal-custom {
+    width: 90%;
+    padding: 20px;
+  }
+}

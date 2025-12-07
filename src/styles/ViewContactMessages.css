@@ -1,0 +1,47 @@
+.container-fluid {
+    padding: 0;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.col-md-9 {
+    padding-left: 0; /* Remove padding between sidebar and content */
+    padding-right: 0;
+}
+
+.vh-100 {
+    height: 100vh;
+    overflow-y: auto; /* Ensure content inside can scroll */
+}
+
+.content-container {
+    background-color: #f9f9f9;
+    padding: 20px; /* Add some padding around the content */
+    border-radius: 10px; /* Make it look neat with rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.table {
+    background-color: #fff; /* White background for the table */
+}
+
+.table th, .table td {
+    vertical-align: middle; /* Center align table cells */
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1; /* Add hover effect for rows */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Make buttons stand out */
+    border-color: #007bff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}

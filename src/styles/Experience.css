@@ -1,0 +1,24 @@
+.exp-container {
+  padding: 40px 6%;
+}
+
+.exp-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+  color: #f8fafc;
+  margin-bottom: 40px;
+}
+
+.exp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 28px;
+}
+
+.display-exp {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}

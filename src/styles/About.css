@@ -1,0 +1,66 @@
+/* About.css */
+
+/* Page Container */
+.container {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Section Title */
+/* .content-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #f8fafc;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 3rem;
+  border-bottom: 2px solid #f77f00;
+} */
+
+.content-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #f8fafc;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 3rem;
+  border-bottom: 2px solid #f77f00;
+  display: inline-block;   /* 👈 THIS MAKES BORDER FIT TEXT */
+  padding-bottom: 4px;     /* optional spacing */
+}
+
+
+/* Paragraph Text */
+p {
+  color: #cbd5e1; /* subtle light text */
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* Typewriter Title */
+h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+/* Cursor style */
+span > .cursor {
+  display: inline-block;
+  background-color: #8b5cf6; 
+  width: 3px;
+  margin-left: 2px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+
+
+/* Dark card style for other sections */
+.bg-light {
+  background-color: #1e293b !important; /* override Bootstrap light */
+  color: #f8fafc;
+}

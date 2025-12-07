@@ -1,0 +1,39 @@
+.project-card {
+  background: #1e293b; /* Dark slate */
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
+  transition: 0.35s ease;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.edu-item {
+  padding-left: 10px;
+  border-left: 4px solid #51f5f0ff;
+  transition: 0.3s;
+}
+
+.edu-item:hover {
+  padding-left: 18px;
+  border-left-color: #09a7c4;
+}
+
+.edu-degree {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  color: #51f5f0ff;
+}
+
+.edu-detail {
+  font-size: 16px;
+  margin-top: 5px;
+  color: #5a5a5a;
+}

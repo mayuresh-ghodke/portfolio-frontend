@@ -1,0 +1,28 @@
+.project-card {
+  background: #1e293b;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.project-img {
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.icon {
+  cursor: pointer;
+  margin-left: 12px;
+  transition: 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.15);
+}
+
+.github { color: #000; }
+.live { color: green; }
+.edit { color: #007bff; }
+.delete { color: red; }
+.hide { color: orange; }
+.unhide { color: green; }

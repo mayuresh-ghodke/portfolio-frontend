@@ -1,0 +1,38 @@
+
+.navbar-nav .nav-link {
+  color: #51f5f0ff;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 40px;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link.active {
+  color: #f77f00 !important;
+  transform: scale(1.08);
+}
+
+
+.navbar-nav .nav-link:last-child {
+  margin-right: 0;
+}
+
+
+.navbar-nav .nav-link:hover {
+  color: #f77f00;
+  transform: scale(1.05);
+  /*It increases the size*/
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.web-title{
+  color:#f77f00;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: bold;
+}
