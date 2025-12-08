@@ -117,7 +117,7 @@ function Navbar() {
       <button
         className="btn mt-2 mt-lg-0"
         // onClick={downloadResume}
-        onClick={()=> {window.open("/uploads/MayureshGhodke_JavaFullStackResume.pdf.pdf", "_blank")}}
+        onClick={()=> {window.open("/uploads/MayureshGhodke_JavaFullStackResume.pdf", "_blank")}}
         style={{
           backgroundColor: "#f77f00",
           fontWeight: "bold",
