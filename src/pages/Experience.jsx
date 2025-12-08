@@ -36,7 +36,7 @@ export default function Experience() {
   return (
     <>
       {experiences.length !==0 ? <>
-        <div className="container mt-2 mb-2">
+        <div className="container">
 
       <div className="row">
         <div className="col-md-12 text-center">
@@ -44,7 +44,7 @@ export default function Experience() {
         </div>
       </div>
 
-      <div className="row g-4 justify-content-center">
+      <div className="row g-2 justify-content-center">
         {isLoading ? (
           <Loading />
         ) : (

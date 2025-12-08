@@ -25,7 +25,7 @@ export default function PublicProjectCard({ project }) {
       </div></p>
 
         {/* Images */}
-      {project.images && project.images.length > 0 && (
+      {/* {project.images && project.images.length > 0 && (
         <div className="project-images">
           {project.images.map((img, index) => (
             <img
@@ -36,7 +36,7 @@ export default function PublicProjectCard({ project }) {
             />
           ))}
         </div>
-      )}
+      )} */}
 
       {/* Description */}
       <div

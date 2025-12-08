@@ -182,11 +182,11 @@ function AboutInfo() {
                 )}
 
                 <div className="col-md-12">
-                    <label className="form-label fw-semibold">About Bio</label>
+                    <label className="form-label fw-semibold mt-3">About Bio</label>
                     <input
                       type="text"
                       className="admin-form-control"
-                      name="admin-aboutBio"
+                      name="aboutBio"
                       value={formData.aboutBio}
                       onChange={handleChange}
                       placeholder="Enter bio"

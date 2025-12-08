@@ -3,15 +3,6 @@
 =========================== */
 
 .project-card {
-  background: rgba(68, 213, 213, 0.6);   /* Deep Slate glass */
-  border: 1px solid rgba(255, 255, 255, 0.07);
-  backdrop-filter: blur(16px);
-  border-radius: 20px;
-  padding: 24px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
-  transition: 0.35s ease;
-}
-.project-card {
   background: rgba(68, 213, 213, 0.6);
   border-radius: 16px;
   padding: 20px;
@@ -64,17 +55,20 @@
 
 .project-description {
   color: #d1d5db;
-  margin-top: 14px;
-  line-height: 1.6;
+  font-size: 0.95rem;
+  margin-top: 12px;
+  line-height: 1.65;
+  text-align: justify;
 }
 
 .project-description ul {
-  margin-left: 18px;
-  margin-top: 6px;
+  margin-top: 5px;
 }
 
 .project-description li {
   margin-bottom: 6px;
+  color: white;
+  font-style: italic;
 }
 
 
@@ -97,6 +91,7 @@
   font-size: 0.8rem;
   font-weight: 500;
   backdrop-filter: blur(6px);
+  flex-grow:1;
 }
 
 

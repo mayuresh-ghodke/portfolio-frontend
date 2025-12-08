@@ -127,12 +127,12 @@ function AppContent() {
 function App() {
   return (
     <Router>
-      <ToastContainer 
+      {/* <ToastContainer 
         position="top-right"
         autoClose={2000}
         pauseOnHover
         theme="colored"
-      />
+      /> */}
       <AppContent />
     </Router>
   );

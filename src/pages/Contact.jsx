@@ -28,7 +28,7 @@ function Contact() {
                 </div>
                 <div className="row">
                     <div className="col-md-6">
-                        <div className="card dark-card">
+                        <div className="card contact-dark-card">
                             <p><FaPhoneAlt size={30} /></p>
                             <h4 className="mt-2">{profile.mobile}</h4>
                             <h5 className="mt-3">Call on above number</h5>
@@ -36,7 +36,7 @@ function Contact() {
 
                     </div>
                     <div className="col-md-6">
-                        <div className="card dark-card text-center">
+                        <div className="card contact-dark-card text-center">
                         <p><FaEnvelope size={30} /></p>
                         <h4 className="mt-2">{profile.email}</h4>
                         <h5 className="mt-3">
@@ -50,7 +50,7 @@ function Contact() {
                     </div>
                     </div>
                 </div>
-                <div className="row">
+                {/* <div className="row">
                     <div className="col-md-6">
                         <div className="description-box">
                             <h2 className="font-weight-bold">Message Me</h2>
@@ -66,7 +66,7 @@ function Contact() {
                     <div className="col-md-6">
                         <ContactForm></ContactForm>
                     </div>
-                </div>
+                </div> */}
             </div>
 
         </>

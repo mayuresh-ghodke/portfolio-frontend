@@ -13,7 +13,6 @@ function Education() {
   useEffect(()=>{
     viewEducation().then((res)=>{
       setEducations(res);
-      console.log(res);
     });
   }, []);
 
@@ -25,7 +24,11 @@ function Education() {
             <>
               <div className="edu-item">
                 <h3 className="edu-degree">{edu.degreeName}</h3>
-                <p className="edu-detail">{edu.schoolName} • {edu.place} • {edu.passingYear}</p>
+                <p className="edu-detail">{edu.schoolName} <span style={
+                  {color:"#51f5f0ff"}
+                }> • </span> {edu.place} <span style={
+                  {color:"#51f5f0ff"}
+                }> • </span> {edu.passingYear}</p>
               </div>
             </>
           );

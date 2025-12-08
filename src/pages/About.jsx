@@ -53,7 +53,8 @@ const About = () => {
           <div className="col-md-6 text-end">
             <img
                     className="img-fluid rounded-3 shadow-lg"
-                    src={aboutData.imgUrl ? `http://localhost:8030${aboutData.imgUrl}` : "about-background.jpg"}
+                    // src={aboutData.imgUrl ? `http://localhost:8030${aboutData.imgUrl}` : "about-image.jpg"}4
+                    src="about-image.jpg"
                     alt="About"
                     style={{
                     maxHeight: "250px",

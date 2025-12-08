@@ -111,18 +111,13 @@ function Navbar() {
           </NavLink>
         </li>
 
-        <li className="nav-item">
-          <NavLink className="nav-link" to="/certificates">
-            Certificates
-          </NavLink>
-        </li>
-
       </ul>
 
       {/* RESUME BUTTON - moves down on mobile */}
       <button
         className="btn mt-2 mt-lg-0"
-        onClick={downloadResume}
+        // onClick={downloadResume}
+        onClick={()=> {window.open("/uploads/resume.pdf", "_blank")}}
         style={{
           backgroundColor: "#f77f00",
           fontWeight: "bold",

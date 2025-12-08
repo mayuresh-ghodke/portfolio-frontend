@@ -19,6 +19,7 @@ import { viewAboutInfo, viewProfile } from "../services/public-service";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Experience from "./Experience";
+import Contact from "./Contact";
 
 // ----------------------------------------------
 // Animation Variants
@@ -51,12 +52,12 @@ const staggerItem = {
 function Home() {
 
   const [aboutData, setAboutData] = useState({
-    aboutTitle: "Java Developer"
+    aboutTitle: "Java Full Stack Developer"
   });
 
   const [profile, setProfile] = useState({
     firstName:"Mayuresh",
-    lastName:"",
+    lastName:"Ghodke",
     linkedInUrl:"https://linkedin.com/in/mayuresh-ghodke-72704027b",
     githubUrl:"https://github.com/mayuresh-ghodke"
   });
@@ -121,7 +122,7 @@ function Home() {
               style={{ fontSize: "64px", color: "#51f5f0ff" }}
               variants={fadeUp}
             >
-              Hello, I'm <span style={{ color: "#ff6347" }}>{info.name}</span>
+              Hello, I'm <span style={{ color: "#ff4747ff" }}>{info.name}</span>
             </motion.h1>
 
             <motion.h3
@@ -222,13 +223,13 @@ function Home() {
 
       {/* ==================== CONTACT SECTION ==================== */}
       <motion.div
-        className="container text-center"
+        className="text-center"
         variants={fadeUp}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
       >
-        <h1 className="content-title">Contact Me</h1>
+        {/* <h1 className="content-title">Contact Me</h1>
 
         <div className="mt-4">
           <h2>
@@ -237,11 +238,9 @@ function Home() {
           <h4>
             <strong>Fill The Form Below</strong>
           </h4>
-        </div>
+        </div> */}
 
-        <div className="col-md-8 mx-auto mt-4">
-          <ContactForm />
-        </div>
+        <Contact />
       </motion.div>
     </>
   );

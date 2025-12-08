@@ -19,10 +19,10 @@ export default function PublicExperienceCard({ experience }) {
     >
 
       {/* Role */}
-      <h4 className="exp-title" style={{color:"#51f5f0ff"}}>
+      <h5 className="exp-title" style={{color:"#51f5f0ff"}}>
         <FaBriefcase size={24} className="exp-icon" /> 
         {experience.roleName}
-      </h4>
+      </h5>
 
       {/* Company */}
       <p className="exp-subtitle">

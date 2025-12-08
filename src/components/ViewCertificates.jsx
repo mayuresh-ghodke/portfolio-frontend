@@ -14,6 +14,7 @@ export default function ViewCertificates() {
       try {
         const res = await publicAxios.get("/files/get/by-type/Certificate");
         setIsLoading(false);
+        
         setCertificates(res.data || []);
 
       } catch (error) {
@@ -73,9 +74,13 @@ export default function ViewCertificates() {
               </h4>
 
               {/* View Button */}
-              <button
+              {/* <button
                 className="btn btn-warning mt-4"
                 onClick={() => openCertificate(cert.fileName)}
+              > */}
+              <button
+                className="btn btn-warning mt-4"
+                onClick={() => window.open("/uploads/Capgemini_JavaFullStack.pdf", "_blank")}
               >
                <FaFileAlt /> View
               </button>

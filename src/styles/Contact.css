@@ -52,7 +52,7 @@ p, h4, h5 {
 }
 
 /* Uniform Dark Card (used for contact-card and message description card) */
-.dark-card {
+.contact-dark-card {
     background-color: #1e293b; 
     border: 1px solid #1e293b;
     color: #f8fafc;
@@ -68,9 +68,11 @@ p, h4, h5 {
     transition: transform .3s ease, box-shadow .3s ease;
 }
 
-.dark-card:hover {
+.contact-dark-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+    border-color: #51f5f0ff;
+    color:#51f5f0ff;
 }
 
 /* Align ContactForm vertically */
